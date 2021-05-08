@@ -105,13 +105,13 @@ def game():
        	   game()
 game()           
 while True:
-   flag = input('▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒\nЕщё раз? [да/нет]: ')
+    flag = input('▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒\nЕщё раз? [да/нет]: ')
 
-   if flag == 'да' or 'Да':
+    if flag == 'да' or 'Да':
        os.system('cls' if os.name == 'nt' else 'clear')
        game()
     elif flag == 'нет' or 'Нет':
         exit()
-   else:
-       break  
+    else:
+        break  
 
